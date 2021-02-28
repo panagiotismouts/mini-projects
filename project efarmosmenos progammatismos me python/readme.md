@@ -1,4 +1,5 @@
-#1 kante fork ton fakelo "project efarmosmrnos programmatismos me python".
+# αφού έχετε κάνει accept invitation to be a colaborator από τα email σας, μπορείτε να κάνετε κατευθείαν κομμιτ εδώ δηλαδή στο panagiotismouts/myrepository/efarmosmenos programmatismos me python.
 #
-#2 otan 8elete na grapsete kati kante meta pull request ap to diko sas sto master. px pull request panagiotismouts/master   <-   DimitrisTzer/master
-#dwste ena file name mia paparia kai kane pull request kai 8a to kanw accept.
+# το εκανα ετσι για να μην εχουμε θεμα και μπερδευομαστε με τα pull requests.
+#
+# απλως ερχεστε εδω δλδ και ανεβαζετε οτι θελετε η γραφετε, γενικα κανετε οτι θελετε μεσα στο panagiotismouts/myrepository/efarmosmenos programmatismos me python. 
