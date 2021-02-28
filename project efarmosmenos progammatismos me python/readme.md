@@ -1,6 +1,4 @@
-#1 kante fork ton fakelo "project efarmosmrnos programmatismos me pytohn".
+#1 kante fork ton fakelo "project efarmosmrnos programmatismos me python".
 #
-#2 kante neo branch me to onoma sas px "maria-xristina", "dimitrhs"
-#
-#3 otan o ka8enas 8a grafei sto branch  tou, 8a kanei commit sto master branch wste na ta vlepoume oloi kai na "xrizetai" to synoliko arxeio.
-#
+#2 otan 8elete na grapsete kati kante meta pull request ap to diko sas sto master. px pull request panagiotismouts/master   <-   DimitrisTzer/master
+#dwste ena file name mia paparia kai kane pull request kai 8a to kanw accept.
