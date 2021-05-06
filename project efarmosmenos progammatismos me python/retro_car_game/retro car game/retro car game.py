@@ -57,7 +57,7 @@ class Player:
         self.sound_horn.set_volume(0.3)
         #gia th 8esh kai taxythta
         self.trace = (0, 0, 0, 0)
-        self.posx = 200
+        self.posx = 300
         self.posy = 650
 
         self.speed = 0
@@ -89,9 +89,9 @@ class Player:
                 self.brake = False
                 self.sound_rev.stop()
         #gia thn kinhsh, gia na meinei sta oria tou xarth.
-        if self.moving_left and not self.posx - 2.5 <= 80:
+        if self.moving_left and not self.posx - 2.5 <= 180:
             self.posx -= 2.5
-        if self.moving_right and not self.posx + 2.5 >=357:
+        if self.moving_right and not self.posx + 2.5 >=427:
             self.posx += 2.5
         #gia thn kinhsh ey8eia
         if self.gas and self.speed < 300:
@@ -231,6 +231,7 @@ class Game:
     #h ka8oristikh synarthsh, h loopa pou ola 8a symvainoun synexws.
     def mainloop(self):
         while not self.gameover:
+            print(player.posx)
             clock.tick(fps)#orizoume ta fps.
             print(clock.tick(fps))
             bg.draw()
