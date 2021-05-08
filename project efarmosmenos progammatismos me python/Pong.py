@@ -1,12 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 #Import libraries used for this program
 # a basic graphic library
 import turtle
+
+win = turtle.Screen()
+pad_a= turtle.Turtle()
+pad_b= turtle.Turtle()
+ball= turtle.Turtle()
+pen = turtle.Turtle()
 
 def pad_a_up():
     y = pad_a.ycor()
@@ -30,14 +35,13 @@ def pad_b_down():
 
 def main():
 
-    win = turtle.Screen()
+
     win.title("A PING-PONG Game")
     win.bgcolor('black')
     win.setup(width=800,height=600)
     win.tracer(0)
 
     #Left Pad
-    pad_a= turtle.Turtle()
     pad_a.speed(0)
     pad_a.shape("square")
     pad_a.color("blue")
@@ -46,7 +50,7 @@ def main():
     pad_a.goto(-350,0)
 
     # Right Pad
-    pad_b= turtle.Turtle()
+    
     pad_b.speed(0)
     pad_b.shape("square")
     pad_b.color("red")
@@ -55,7 +59,7 @@ def main():
     pad_b.goto(350,0)
 
     # Ball
-    ball= turtle.Turtle()
+    
     ball.speed(1000)
     ball.shape("square")
     ball.color("white")
@@ -69,7 +73,7 @@ def main():
     score_b = 0
 
     # score context
-    pen = turtle.Turtle()
+    
     pen.speed(0)
     pen.color("white")
     pen.penup()
@@ -122,5 +126,6 @@ def main():
             
 if __name__ == '__main__':
     main()
+
 
 
